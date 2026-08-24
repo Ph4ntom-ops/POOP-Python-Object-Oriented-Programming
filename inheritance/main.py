@@ -11,12 +11,10 @@ class Animal:
     def sleep(self):
         print(f"{self.name} is sleeping.")
 
-
 class Dog(Animal):
     def speak(self):
         print("WOOF!")
         playsound('./dog.mp3')
-
 
 class Cat(Animal):
     def speak(self):
