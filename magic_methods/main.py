@@ -1,7 +1,7 @@
 # magic methods                                   - Also known as dunder methods,
 #                                                   methods that starts and ends with __ (double underscore)
 #                                                   They let you define and customize the behaviour of an object
-class Book:
+class Book: 
     def __init__(self, title, author, num_pages):
         self.title = title
         self.author = author
